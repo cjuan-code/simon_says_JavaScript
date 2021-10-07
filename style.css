@@ -1,0 +1,141 @@
+/* Container general colores interiores */
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20vh;
+    align-items: center;
+    justify-items: center; /* adjusted */
+    padding-top: 15vh;
+}
+
+/* Container general colores exteriores */
+.wrapper2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 20vh;
+    align-items: center;
+    justify-items: center; /* adjusted */
+    padding-top: 30vh;
+    margin-top: -50vh;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    height: 20vh;
+    margin-bottom: 5vh;
+}
+
+/* Container de los colores interiores */
+.content {
+    display: grid;
+    grid-template-columns: 0fr 0fr;
+    grid-template-rows: 0fr 0fr;
+}
+
+/* Container de los colores exteriores */
+.content2 {
+    display: grid;
+    grid-template-columns: 0fr 0fr;
+    grid-template-rows: 0fr 0fr;
+}
+
+/* Medidas colores internos */
+.gb {
+    height: 20vh;
+    width: 20vh;
+    z-index: 2;
+}
+
+/* Medidas colores exteriores */
+.gb2 {
+    height: 30vh;
+    width: 30vh;
+    z-index: 1;
+}
+
+/* Animacion de los colores */
+.trans {
+    -webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+/* Asignar los colores y bordes para el juego */
+.grand-red {
+    background-color: #00FFF4;
+    border-top-left-radius: 5vh;
+    border: 1px solid black;
+}
+
+.grand-yellow {
+    background-color: #5D82A2;
+    border-top-right-radius: 5vh;
+    border: 1px solid black;
+}
+
+.grand-green {
+    background-color: #B14E92;
+    border-bottom-left-radius: 5vh;
+    border: 1px solid black;
+
+}
+
+.grand-blue {
+    background-color: #A17CBF;
+    border-bottom-right-radius: 5vh;
+    border: 1px solid black;
+}
+
+.red {
+    background-color: red;
+    border-top-left-radius: 5vh;
+    border: 1px solid black;
+
+}
+
+.yellow {
+    background-color: yellow;
+    border-top-right-radius: 5vh;
+    border: 1px solid black;
+
+}
+
+.green {
+    background-color: green;
+    border-bottom-left-radius: 5vh;
+    border: 1px solid black;
+}
+
+.blue {
+    background-color: blue;
+    border-bottom-right-radius: 5vh;
+    border: 1px solid black;
+}
+
+/* Botones */
+.play {
+    text-align: center;
+    margin-top: 30vh;
+}
+
+button {
+    border-radius: 5px;
+    padding: 1vh;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+/* z-index para las animaciones */
+
+.z3 {
+    z-index: 3;
+}
+
+.z4 {
+    z-index: 4;
+}
+
+.z5 {
+    z-index: 5;
+}

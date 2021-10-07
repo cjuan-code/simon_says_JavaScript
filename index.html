@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css"/>
+    <title>Simon Says</title>
+</head>
+<body>
+    
+    <div class="header">
+        <h1>Simon Says</h1>
+        <p>Simon says is a memory game, where you have to repeat the sequence of colors that the machine especifies. If you do it correctly you pass the level and the difficulty incresases, if you fail you lose.</p>
+        <p><strong>Round: </strong><span id="rounds">1</span></p>
+    </div>
+    
+    <div class="wrapper">
+        <div id="gb" class="content">
+    
+            <div id="red" class="red gb">
+    
+            </div>
+            <div id="yellow" class="yellow gb">
+                
+            </div>
+    
+            <div id="green" class="green gb">
+    
+            </div>
+            <div id="blue" class="blue gb">
+                
+            </div>
+
+        </div>
+    </div>
+
+    <div class="wrapper2">
+        <div id="gb2" class="content2">
+            <div id="grand-red" class="gb2">
+    
+            </div>
+            <div id="grand-yellow" class="gb2">
+                
+            </div>
+    
+            <div id="grand-green" class="gb2">
+    
+            </div>
+            <div id="grand-blue" class="gb2">
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="play">
+        <button id="play">Play</button>
+        <button id="reset" hidden>Reset game</button>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+</html>
